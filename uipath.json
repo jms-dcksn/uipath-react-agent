@@ -1,0 +1,37 @@
+{
+  "entryPoints": [
+    {
+      "filePath": "agent",
+      "uniqueId": "1bf4dbac-43f5-4300-b866-ab3ca0e08b67",
+      "type": "agent",
+      "input": {
+        "type": "object",
+        "properties": {
+          "query": {
+            "title": "Query",
+            "type": "string"
+          }
+        },
+        "required": [
+          "query"
+        ]
+      },
+      "output": {
+        "type": "object",
+        "properties": {
+          "response": {
+            "title": "Response",
+            "type": "string"
+          }
+        },
+        "required": [
+          "response"
+        ]
+      }
+    }
+  ],
+  "bindings": {
+    "version": "2.0",
+    "resources": []
+  }
+}
